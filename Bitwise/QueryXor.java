@@ -19,7 +19,7 @@ public class QueryXor
 	    int[] result=new int[q];
 	    for(int i=0;i<q;i++)
 	    {
-	        result[i]=0;
+	        result[i]=0;//a^0=a i.e.,any value XOR’d with zero is left unchanged
 	        int l=scanner.nextInt();
 	        int r=scanner.nextInt();
 	        for(int j=l;j<=r;j++)
@@ -32,3 +32,16 @@ public class QueryXor
 	    System.out.print(result[i]+" ");
 	}
 }
+/*
+OUTPUT
+Enter the size of the Array                                     
+4                                                               
+1 3 4 8                                                         
+Enter the number of quries                                      
+4                                                               
+0 1      
+1 2                                                             
+0 3                                                             
+3 3                                                             
+2 7 14 8   
+*/
