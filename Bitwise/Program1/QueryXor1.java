@@ -1,5 +1,5 @@
 package Bitwise;
-/*In this program i am storing the result of each query(DynamicProgramming)*/
+/*In this program i am storing the result of each query*/
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -24,7 +24,7 @@ public class QueryXor1 {
 	    for(int i=0;i<q;i++)
 	    {
 	    	int k,flag=0;
-	        result[i]=0;//a^0=a i.e.,any value XOR’d with zero is left unchanged
+	        result[i]=0;//a^0=a i.e.,any value XORâ€™d with zero is left unchanged
 	        int l=scanner.nextInt();
 	        int r=scanner.nextInt();
 	        if(mat[l][r]==0)
