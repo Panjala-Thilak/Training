@@ -1,0 +1,19 @@
+Testcase 1:
+Input: 121
+Output: 10
+
+Testcase 2:
+Input: 230
+Output: 11
+
+Testcase 3:
+Input: 100000000
+Output: 35
+
+Testcase 4:
+Input: 2147483646
+Output: 32
+
+Testcase 5:
+Input: 1002586
+Output: 29
