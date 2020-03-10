@@ -1,0 +1,7 @@
+Review comments are given inline i.e in the code file.
+
+External comments will be given here.
+1. Test Cases - Not all edge cases covered. 
+    Conditions not taken care of 
+    1. l == r 
+    2. 
