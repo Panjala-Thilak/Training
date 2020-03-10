@@ -1,4 +1,6 @@
-TestCase 5 - Output - 28 not 29. 
+1. TestCase 5 - Output - 28 not 29. 
 
 
-add more test cases
+2 . add more test cases
+
+3. Best Case code missing
