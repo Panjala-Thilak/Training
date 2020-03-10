@@ -12,8 +12,8 @@ import java.util.Scanner;
 public class QueryXor
 	{
 
-		public static void main(String[] args) {
-			    Scanner scanner=new Scanner(System.in);
+		public static void main(String[] args) {    //Code works but not of production quality
+			    Scanner scanner=new Scanner(System.in);   // try to use bufferedReader
 			    System.out.println("Enter the size of the Array");
 			    int n=scanner.nextInt();
 			    int[] a=new int[n];
@@ -22,11 +22,11 @@ public class QueryXor
 			        a[i]=scanner.nextInt();
 			    }
 			    System.out.println("Enter the number of quries");
-			    int q=scanner.nextInt();
+			    int q=scanner.nextInt();   		// use better naming 
 			    int[] result=new int[q];
 			    for(int i=0;i<q;i++)
 			    {
-			        result[i]=0;//a^0=a i.e.,any value XOR’d with zero is left unchanged
+			        result[i]=0;//a^0=a i.e.,any value XORâ€™d with zero is left unchanged
 			        int l=scanner.nextInt();
 			        int r=scanner.nextInt();
 			        for(int j=l;j<=r;j++)
@@ -35,7 +35,7 @@ public class QueryXor
 			        }
 			    }
 			    System.out.println("Result is:");
-			    for(int i=0;i<q;i++)
+			    for(int i=0;i<q;i++)       //identation and curly braces
 			    System.out.print(result[i]+" ");
 		}
 
