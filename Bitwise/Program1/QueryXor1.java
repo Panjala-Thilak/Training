@@ -5,22 +5,22 @@ import java.util.Scanner;
 
 public class QueryXor1 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) {       // this code wont work. And use functions instead of writing the whole code in main function.
 		// TODO Auto-generated method stub
 		Scanner scanner=new Scanner(System.in);
 	    System.out.println("Enter the size of the Array");
 	    int n=scanner.nextInt();
 	    int[] a=new int[n];
-	    int[][] mat=new int[n][n];
+	    int[][] mat=new int[n][n];  // change variable name to a more appropriate one
 	    for (int[] row : mat) 
-            Arrays.fill(row,0); 
+            Arrays.fill(row,0);         // use identation and curly braces
 	    for(int i=0;i<n;i++)
 	    {
 	        a[i]=scanner.nextInt();
 	    }
 	    System.out.println("Enter the number of quries");
 	    int q=scanner.nextInt();
-	    int[] result=new int[q];
+	    int[] result=new int[q]; 	// this shud be an array of arrays. Read the question again.
 	    for(int i=0;i<q;i++)
 	    {
 	    	int k,flag=0;
@@ -48,8 +48,8 @@ public class QueryXor1 {
 	        }
 	        mat[l][r]=result[i];
 	        }
-	        else
-	        	result[i]=mat[l][r];
+	        else					
+	        	result[i]=mat[l][r];	//not computing anything if mat[l][r] == 0
 	    }
 	    System.out.println();
 	    System.out.println("Result is:");
