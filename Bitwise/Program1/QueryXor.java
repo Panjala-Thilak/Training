@@ -22,8 +22,8 @@ public class QueryXor
 			        a[i]=scanner.nextInt();
 			    }
 			    System.out.println("Enter the number of quries");
-			    int q=scanner.nextInt();   		// use better naming 
-			    int[] result=new int[q];
+			    int query=scanner.nextInt();   		// use better naming 
+			    int[] result=new int[query];
 			    for(int i=0;i<q;i++)
 			    {
 			        result[i]=0;//a^0=a i.e.,any value XOR’d with zero is left unchanged
@@ -35,8 +35,10 @@ public class QueryXor
 			        }
 			    }
 			    System.out.println("Result is:");
-			    for(int i=0;i<q;i++)       //identation and curly braces
-			    System.out.print(result[i]+" ");
+			    for(int i=0;i<q;i++)     //identation and curly braces
+			    {
+			   	 System.out.print(result[i]+" ");
+			    }
 		}
 
 	}
