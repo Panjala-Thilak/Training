@@ -8,7 +8,7 @@
 6. Done
 
 - Review
-1. Done - Work on best approach
+1. In Progress - resolve comments on best approach code
 2. 
 3. In Progress
 4. In Progress - added review comments
