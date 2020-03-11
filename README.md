@@ -1,20 +1,16 @@
 # Training
- 8/03/2020
-- Question no:4-->Done.
-Review Done
+- Code Complete
+1. Done
+2. Done
+3. Done
+4. Done
+5. Done
+6. Done
 
-9/03/2020
-- Question no:1-->Done.
- Review Done
-
-10/03/2020
-- Question no:3-->Done
- Review Done
-- Question no:5-->Done.
-
-- Question no:6-->Done.
-
-- Question no:2-->Done.
-
-- Question no:1(Modified)
-
+- Review
+1. Done - Work on best approach
+2. 
+3. In Progress
+4. 
+5. 
+6. 
