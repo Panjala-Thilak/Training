@@ -22,7 +22,7 @@ public class QueryXor
 			        a[i]=scanner.nextInt();
 			    }
 			    System.out.println("Enter the number of quries");
-			    int query=scanner.nextInt();   		// use better naming 
+			    int query=scanner.nextInt();
 			    int[] result=new int[query];
 			    for(int i=0;i<q;i++)
 			    {
@@ -35,7 +35,7 @@ public class QueryXor
 			        }
 			    }
 			    System.out.println("Result is:");
-			    for(int i=0;i<q;i++)     //identation and curly braces
+			    for(int i=0;i<q;i++)   
 			    {
 			   	 System.out.print(result[i]+" ");
 			    }
