@@ -1,4 +1,5 @@
 def check(string):
+    global count
     stack=[]
     k=0
     for i in range(len(string)):
@@ -15,6 +16,7 @@ def check(string):
         else:
             break
     if len(stack)==0:
+        count+=1
         for i in string:
             if i=='0':
                 print('(',end="")
@@ -24,11 +26,9 @@ def check(string):
     else:
         stack.clear()
 
-
+count=0
 n=int(input())
-if n%2==1 or n<=0:
-    print("-1")
-else:
-    for i in range(pow(2,n)):
-        input=format(i,'0'+str(n)+'b')
-        check(input)
+for i in range(pow(4,n)):
+    input=format(i,'0'+str(n*2)+'b')
+    check(input)
+print(count)
