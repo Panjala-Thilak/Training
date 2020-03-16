@@ -28,7 +28,8 @@ def check(string):
 
 count=0
 n=int(input())
-for i in range(pow(4,n)):
-    input=format(i,'0'+str(n*2)+'b')
-    check(input)
-print(count)
+if n>0:
+    for i in range(pow(4,n)):
+        input=format(i,'0'+str(n*2)+'b')
+        check(input)
+print('count=',count)
