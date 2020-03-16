@@ -26,7 +26,7 @@ def check(string):
 
 
 n=int(input())
-if n%2==1:
+if n%2==1 or n<=0:
     print("-1")
 else:
     for i in range(pow(2,n)):
