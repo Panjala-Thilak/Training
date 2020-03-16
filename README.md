@@ -1,16 +1,23 @@
-# Training
-- Code Complete
-1. Done
-2. Done
-3. Done
-4. Done
-5. Done
-6. Done
+- Training
+1. Done-(Mon)
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
 
 - Review
-1. In Progress - resolve comments on best approach code
-2. In Progress
-3. In Progress
-4. In Progress - added review comments
+1. 
+2. 
+3. 
+4. 
 5. 
-6. In Progress - Start working on best approach without using extra space 
+6. 
+7. 
+8. 
+9. 
+10. 
