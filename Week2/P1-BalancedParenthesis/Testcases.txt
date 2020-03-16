@@ -1,24 +1,11 @@
 Test case 1:
-Input:n=2
+Input:n=1
 Output:
 ()
+count=1
 
 Test case 2:
 Input:n=5
-Output:
--1
-
-Test case 3:
-Input:n=6
-Output:
-((()))
-(()())
-(())()
-()(())
-()()()
-
-Test case 4:
-Input:n=10
 Output:
 ((((()))))
 (((()())))
@@ -62,13 +49,31 @@ Output:
 ()()(())()
 ()()()(())
 ()()()()()
+count=42
+
+Test case 3:
+Input:n=3
+Output:
+((()))
+(()())
+(())()
+()(())
+()()()
+count=5
+
+Test case 4:
+Input:n=2
+Output:
+(())
+()()
+count=2
 
 Test case 5:
 Input:n=0
 Output:
--1
+count=0
 
 Test case 6:
 Input:n=-5
 Output:
--1
+count=0
