@@ -13,8 +13,8 @@
 - Review
 1. Review Done
 2. 
-3. Review Done - test cases ?
-4. Review Done - test cases ?
+3. Review Done - test cases ? use binary search
+4. Review Done - test cases ? use binary search
 5. 
 6. 
 7. 
