@@ -1,8 +1,22 @@
+def binarySearch(array,low,high,k):
+    mid=(low+high)//2
+    if(low<=high):
+        if(array[mid]==k):
+            return True
+        if(array[mid]>=k):
+            return binarySearch(array,low,mid-1,k)
+        else:
+            return binarySearch(array,mid+1,high,k)
+    return False
+
 array=list(map(int,input().split(" ")))
 array.sort()
-for i in range(1,len(array)+1):
-    if i==array[i-1]:
+length=len(array)
+result=length+1
+for number in range(1,length+1):
+    if(binarySearch(array,0,length-1,number)):
         continue
     else:
-        print(i)
+        result=number
         break
+print(result)
