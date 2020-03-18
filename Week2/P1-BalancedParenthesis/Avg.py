@@ -1,35 +1,23 @@
-def check(string):
-    global count
-    stack=[]
-    k=0
-    for i in range(len(string)):
-        if len(stack)==0:
-            stack.append(string[i])
-            k+=1
-            continue
-        if string[i]=='0':
-            stack.append(string[i])
-            k+=1
-        elif string[i]=='1' and stack[k-1]=='0':
-            stack.pop()
-            k-=1
+def generateParenthesis(n):
+    result=[]
+    l=['']*(2*n)
+    def checker(l,index,n,start,end):
+        if end==n:
+            result.append(''.join(l))
         else:
-            break
-    if len(stack)==0:
-        count+=1
-        for i in string:
-            if i=='0':
-                print('(',end="")
-            else:
-                print(')',end="")
-        print()
-    else:
-        stack.clear()
+            print(l)
+            if start<n:
+                l[index]="("
+                checker(l,index+1,n,start+1,end)
+            if end<start:
+                l[index]=")"
+                checker(l,index+1,n,start,end+1)
 
-count=0
+    checker(l,0,n,0,0)
+    return result
+
 n=int(input())
-if n>0:
-    for i in range(pow(4,n)):
-        input=format(i,'0'+str(n*2)+'b')
-        check(input)
-print('count=',count)
+result=generateParenthesis(n)
+for ans in result:
+    print(ans)
+print('count=',len(result))
